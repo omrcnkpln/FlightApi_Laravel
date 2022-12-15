@@ -7,6 +7,9 @@
 - [ ] Method For Filter The Request
 - [ ] Create Response Page
 - [ ] Change Datetime Format
+- [ ] Make Request With Request Data  
+- [ ] Create Response With Resource Collections
+- [ ] Build With An Behavioral Design Pattern For Various Api Endpoints
 
 ## On Boarding Project Backlog
 
