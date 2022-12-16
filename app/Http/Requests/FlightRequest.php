@@ -29,8 +29,8 @@ class FlightRequest extends FormRequest
         return [
             "origin" => ["required", new OriginAndDestRule],
             "destination" => ["required", new OriginAndDestRule],
-            "departure_date" => "required|date|after_or_equal:today",
-            "return_date" => ["date", "after_or_equal:departure_date"],
+            "departure_date" => "required|date_format:Y-m-d|after_or_equal:today",
+            "return_date" => ["date_format:Y-m-d","after_or_equal:departure_date"],
             "passengers" => ["array:ADT,CHD,INF"],
             "passengers.ADT" => "required|integer|min:1|max:7|sums_to:7,passengers.CHD",
             "passengers.CHD" => "integer|min:0|max:7|sumsTo:7,passengers.ADT",

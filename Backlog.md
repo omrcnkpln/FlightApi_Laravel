@@ -6,9 +6,9 @@
 - [ ] Create New Controller And View To Get Flight Infos From User
 - [ ] Method For Filter The Request
 - [ ] Create Response Page
-- [ ] Change Datetime Format
-- [ ] Make Request With Request Data  
-- [ ] Create Response With Resource Collections
+- [x] Change Datetime Format
+- [x] Make Request With Request Data  
+- [x] Create Response With Resource Collections
 - [ ] Build With An Behavioral Design Pattern For Various Api Endpoints
 
 ## On Boarding Project Backlog
@@ -20,4 +20,7 @@
 - [x] Create New Collection On Postman To Send Requests
 - [x] Create New Form Request Object
 - [x] Validate Form Request By Adding New Rules
+- [x] Change Datetime Format For Form Request Rule
+- [x] Make Request With Request Data
+- [x] Create Response With Resource Collections
 
